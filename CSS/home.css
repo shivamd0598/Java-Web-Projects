@@ -1,0 +1,195 @@
+body
+{
+    background-color: cyan;
+}
+
+.navbar
+{
+    
+}
+
+.active
+{
+    background-color: palegreen;
+}
+
+.nav-item:hover
+{
+
+  background-color: palegreen;  
+    
+}
+.container
+{
+    background-color: white;
+    text-align: center;
+}
+
+.list-group-item:hover
+{
+    background-color: blue;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.btn
+{
+    background-color: black;
+    height: 55px;
+    width: 175px;
+    border-radius: 85px;
+    color: hotpink;
+    font-size: 22px;
+         text-decoration: underline;
+    
+}
+.btn:hover
+{
+    background-color: greenyellow;
+    height: 55px;
+    width: 175px;
+    border-radius: 85px;
+    color: hotpink;
+    font-size: 22px;
+    border-color: gray;
+    
+    
+}
+
+#uname
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 75px;
+    background-color: darkgray;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+
+#pass
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 75px;
+    background-color: darkgray;
+    color: greenyellow;
+    font-size: 20px;
+}
+#repass
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 75px;
+    background-color: darkgray;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+#gend
+{
+  width: 250px;
+    height: 40px;
+    border-radius: 75px;
+    background-color: darkgray;
+    color: greenyellow;
+    font-size: 20px;  
+}
+
+#frgt-btn
+{
+    background-color: black;
+    height: 75px;
+    width: 185px;
+    border-radius: 85px;
+    color: hotpink;
+    font-size: 22px;
+    text-decoration: underline;
+    
+}
+#frgt-btn:hover
+{
+    background-color: greenyellow;
+    height: 75px;
+    width: 185px;
+    border-radius: 85px;
+    color: hotpink;
+    font-size: 22px;
+    border-color: gray;
+   text-decoration: none;
+    
+}
+
+.btn-lg
+{
+    width: 100%;
+}
+
+.btn-lg:hover
+{
+    width:100%;
+    border-right-color: palegreen;
+}
+
+.clock {
+   
+    transform: translateX(-50%) translateY(-50%);
+    color: hotpink;
+    font-size: 55px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    text-align: center;
+    background-color: gray;
+
+
+}
+#tr:hover
+{
+background-color: greenyellow;	
+}
+
+#delte-btn:hover
+{
+	background-color:darkblue;
+}
+
+#lgtbtn
+{
+    background-color: black;
+    height: 50px;
+    width: 125px;
+    border-radius: 85px;
+    color: hotpink;
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+
+#lgtbtn:hover
+{
+    background-color: greenyellow;
+    height: 50px;
+    width: 125px;
+    border-radius: 85px;
+    color: hotpink;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+#ques
+{
+	 background-color: darkgray;
+	color:greenyellow;
+}
