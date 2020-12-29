@@ -1,0 +1,51 @@
+Execute the following commands in MYSQL in order to run the project:-
+
+create database examportal;
+
+create table adminlogin(
+sno int(20) Auto_Increment Primary Key,
+username varchar(40),
+password varchar(40));
+
+create table students(
+sno int(20) Auto_Increment Primary Key,
+first_name varchar(40),
+last_name varchar(40),
+gender varchar(20),
+mobile_no bigint(20),
+username varchar(40),
+password varchar(40));
+
+create table courses(
+cid int(20) Auto_Increment Primary Key,
+course_name varchar(40));
+
+create table question(
+qid int(20) AUTO_INCREMENT PRIMARY KEY,
+ques_name longtext,
+topic varchar(40));
+
+create table question_ans(
+qid int(20) AUTO_INCREMENT PRIMARY KEY,
+option1 varchar(40),
+option2 varchar(40),
+option3 varchar(40),
+option4 varchar(40),
+ans varchar(40),
+Foreign key (qid) references question(qid));
+
+create table student_result(
+
+sno int(20) AUTO_INCREMENT PRIMARY KEY,
+sname varchar(40),
+username varchar(40),
+course varchar(40),
+test_date date,
+correct int(20),
+wrong int(20),
+total_marks int(20),
+total_ques int(20),
+score int(20),
+result varchar(40));
+
+
